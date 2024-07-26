@@ -1,0 +1,355 @@
+.masuk2 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 81px;
+}
+.x-square-fill-1-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.x-square-fill-1-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.masuk-inner,
+.masuk-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.masuk-parent {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-xl);
+}
+.masuk-inner {
+  align-self: stretch;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--primery-color);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-sm);
+  text-align: left;
+  font-size: var(--semi-bold-24-size);
+  color: var(--color-secondry);
+  font-family: var(--text-16);
+}
+.icon {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  object-fit: cover;
+}
+.mudah-cek-riwayat {
+  position: relative;
+  font-weight: 600;
+}
+.masuk-untuk-lihat {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-16-size);
+  font-weight: 200;
+}
+.mudah-cek-riwayat-transaksi-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frame-wrapper13,
+.parent {
+  display: flex;
+  max-width: 100%;
+}
+.frame-wrapper13 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  min-width: 234px;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.icon1 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  object-fit: cover;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.main-spin-arena {
+  position: relative;
+  font-weight: 600;
+}
+.masuk-untuk-dapatkan {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-16-size);
+  font-weight: 200;
+}
+.frame-parent27,
+.frame-parent28,
+.main-spin-arena-berhadiah-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.main-spin-arena-berhadiah-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  min-width: 234px;
+}
+.frame-parent27,
+.frame-parent28 {
+  align-self: stretch;
+}
+.frame-parent28 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-8xl);
+}
+.frame-parent27 {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frame-child26,
+.line-wrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child26 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+}
+.line-wrapper {
+  width: 454px;
+  height: 9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xl) var(--padding-5xs) var(--padding-7xl);
+}
+.login-option-icons {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.jhguydfkt-1-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  object-fit: cover;
+}
+.login-dengan-google {
+  position: relative;
+  font-weight: 200;
+}
+.jhguydfkt-1-parent,
+.login-dengan-google-wrapper,
+.login1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-dengan-google-wrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.jhguydfkt-1-parent,
+.login1 {
+  flex-direction: row;
+}
+.jhguydfkt-1-parent {
+  gap: var(--gap-2xl);
+  z-index: 1;
+}
+.login1 {
+  padding: var(--padding-mini) var(--padding-6xl);
+  position: relative;
+}
+.fb-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--primery-color);
+  box-sizing: border-box;
+}
+.facebook-1-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.login-dengan-facebook {
+  position: relative;
+  font-weight: 200;
+  text-shadow: 1px 0 0 rgba(255, 255, 255, 0.36),
+    0 1px 0 rgba(255, 255, 255, 0.36), -1px 0 0 rgba(255, 255, 255, 0.36),
+    0-1px 0 rgba(255, 255, 255, 0.36);
+}
+.login-dengan-facebook-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.facebook-1-parent,
+.fb {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.facebook-1-parent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.fb {
+  padding: var(--padding-mini) var(--padding-6xl);
+  position: relative;
+}
+.fb,
+.frame-wrapper14,
+.login-parent {
+  display: flex;
+  align-items: flex-start;
+}
+.login-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.frame-wrapper14 {
+  width: 454px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--text-16-size);
+  color: var(--primery-color);
+}
+.frame-parent26,
+.masuk-child {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent26 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-9xs);
+}
+.masuk-child {
+  width: 587px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--text-16);
+}
+.dengan-masuk-ke {
+  flex: 1;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  max-width: 100%;
+}
+.dengan-masuk-ke-lapakgaming-k-wrapper,
+.masuk1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.dengan-masuk-ke-lapakgaming-k-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs);
+  max-width: 100%;
+}
+.masuk1 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 18px;
+  gap: 12px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--text-16-size);
+  color: var(--color-black);
+  font-family: var(--text-16);
+}
+@media screen and (max-width: 450px) {
+  .masuk2 {
+    font-size: var(--font-size-lgi);
+  }
+}
+@media screen and (max-width: 294px) {
+  .masuk-child {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

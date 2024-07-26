@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./wa.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="wa">
+      <div class="wa-inner">
+        <div class="rectangle-parent4">
+          <div class="frame-child11" id="rectangle"></div>
+          <img
+            class="lets-iconsrefund-back-light5"
+            loading="lazy"
+            alt=""
+            src="./public/letsiconsrefundbacklight.svg"
+            id="letsIconsrefundBackLight"
+          />
+        </div>
+      </div>
+      <div class="wa-child">
+        <img
+          class="frame-child12"
+          loading="lazy"
+          alt=""
+          src="./public/rectangle-1071@2x.png"
+        />
+      </div>
+      <div class="message-prompt-parent">
+        <div class="message-prompt">
+          <div class="mengirim-pesan-dengan">
+            Mengirim pesan dengan cepat dan populer dengan whatsapp
+          </div>
+          <div class="confirmation-prompt">
+            <div class="yakin-ingin-membuka">Yakin ingin membuka whatsapp?</div>
+          </div>
+        </div>
+        <div class="frame-wrapper7">
+          <button class="lanjut-ke-chat-wa-wrapper">
+            <div class="lanjut-ke-chat"><a href="https://api.whatsapp.com/send?phone=6281280000203">Lanjut ke chat wa</a></div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./metode-report.html";
+        });
+      }
+      
+      var letsIconsrefundBackLight = document.getElementById(
+        "letsIconsrefundBackLight"
+      );
+      if (letsIconsrefundBackLight) {
+        letsIconsrefundBackLight.addEventListener("click", function (e) {
+          window.location.href = "./metode-report.html";
+        });
+      }
+      </script>
+  </body>
+</html>
